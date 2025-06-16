@@ -1,0 +1,112 @@
+[
+  {
+    "data_id": "file001",
+    "classification": {
+      "category": "文档文件",
+      "evidence_value": "高",
+      "relevance": 8,
+      "key_findings": [
+        "文件包含财务数据（收入、支出、利润）",
+        "元数据显示作者为John Smith，最后修改者为Jane Doe",
+        "文件与ABC Corporation相关"
+      ],
+      "action_recommendation": "进一步分析财务数据以寻找异常或可疑交易，调查John Smith和Jane Doe的角色及其与案件的关系"
+    },
+    "api_response": {
+      "model": "deepseek-chat",
+      "usage": {
+        "prompt_tokens": 303,
+        "completion_tokens": 109,
+        "total_tokens": 412,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 47
+      }
+    }
+  },
+  {
+    "data_id": "file002",
+    "classification": {
+      "category": "系统日志",
+      "evidence_value": "高",
+      "relevance": 9,
+      "key_findings": [
+        "发现删除日志的批处理文件",
+        "文件创建和修改时间接近，表明快速操作",
+        "文件被隐藏",
+        "批处理文件内容显示删除多个日志和临时文件"
+      ],
+      "action_recommendation": "进一步调查删除的日志文件，尝试恢复被删除的文件，检查是否有其他相关的批处理文件或脚本"
+    },
+    "api_response": {
+      "model": "deepseek-chat",
+      "usage": {
+        "prompt_tokens": 316,
+        "completion_tokens": 115,
+        "total_tokens": 431,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 60
+      }
+    }
+  },
+  {
+    "data_id": "file003",
+    "classification": {
+      "category": "媒体文件",
+      "evidence_value": "高",
+      "relevance": 8,
+      "key_findings": [
+        "文件包含GPS坐标信息",
+        "文件由iPhone 13 Pro拍摄",
+        "文件创建和修改时间一致，可能为原始文件"
+      ],
+      "action_recommendation": "验证GPS坐标位置与案件关联性，检查照片内容是否包含关键人物或场景"
+    },
+    "api_response": {
+      "model": "deepseek-chat",
+      "usage": {
+        "prompt_tokens": 297,
+        "completion_tokens": 100,
+        "total_tokens": 397,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 41
+      }
+    }
+  },
+  {
+    "data_id": "file004",
+    "classification": {
+      "category": "其他",
+      "evidence_value": "高",
+      "relevance": 8,
+      "key_findings": [
+        "加密的ZIP存档文件",
+        "受密码保护",
+        "创建和修改时间相同，可能为一次性生成",
+        "访问时间显示在下载后的第二天"
+      ],
+      "action_recommendation": "尝试破解密码或寻找相关密码线索；检查下载来源和上下文信息以确定文件用途"
+    },
+    "api_response": {
+      "model": "deepseek-chat",
+      "usage": {
+        "prompt_tokens": 279,
+        "completion_tokens": 106,
+        "total_tokens": 385,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 23
+      }
+    }
+  }
+]

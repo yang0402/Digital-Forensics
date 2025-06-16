@@ -1,0 +1,22 @@
+{
+  "total_processed": 5,
+  "valid_results": 5,
+  "category_distribution": {
+    "文档文件": 1,
+    "系统日志": 2,
+    "媒体文件": 1,
+    "其他": 1
+  },
+  "evidence_value_distribution": {
+    "高": 4,
+    "中": 1
+  },
+  "top_relevant_items": [
+    "file002",
+    "file001",
+    "file003",
+    "file004",
+    "file005"
+  ],
+  "high_value_evidence_count": 4
+}

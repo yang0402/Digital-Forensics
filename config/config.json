@@ -1,0 +1,20 @@
+{
+	"api": {
+	  "provider": "deepseek",
+	  "api_key": "sk-cca4a6b0541a4aef83489d5501813f30",
+	  "api_url": "https://api.deepseek.com/v1/chat/completions",
+	  "model": "deepseek-chat",
+	  "temperature": 0.2,
+      "max_tokens": 1000
+	},
+	"data": {
+	  "raw_data_path": "data/raw/",
+	  "processed_data_path": "data/processed/",
+	  "results_path": "data/results/"
+	},
+	"processing": {
+	  "batch_size": 5,
+	  "api_delay": 1
+	}
+  }
+  
